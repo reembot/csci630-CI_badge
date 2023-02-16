@@ -15,4 +15,4 @@ jobs:
       - name: install dependencies
         run: sudo apt install -y build-essential
       - name: Compile C++ 2017
-        run: g++ hello.cpp -std=c++17 -o schuffle
+        run: g++ hello.cpp -std=c++17 -o hello
